@@ -86,7 +86,8 @@ h6 {
 #header .profile img {
   margin: 15px auto;
   display: block;
-  width: 180px;
+  width: 160px;
+  height:160px !important;
   border: 8px solid #2c2f3f;
 }
 
@@ -247,7 +248,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(160, 160, 161, 0.3);
+  background: rgba(0, 0, 0, 0.766);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -264,21 +265,21 @@ h6 {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 64px;
+  font-size: 54px;
   font-weight: 700;
   line-height: 56px;
-  color: #1b1818;
+  color: #dee3e6;
 }
 
 #hero p {
-  color: #2d2828;
+  color: #dee3e6;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
-  color: #2d2828;
+  color: #dee3e6;
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
